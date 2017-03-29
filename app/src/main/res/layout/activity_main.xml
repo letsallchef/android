@@ -10,20 +10,10 @@
     tools:context="com.letsallchef.letsallchef.MainActivity">
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:id="@+id/loginButton"
-        android:layout_marginTop="78dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Sign Up"
-        android:id="@+id/signup"
+        android:text="Start"
+        android:id="@+id/startbutton"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/loginButton"
-        android:layout_alignStart="@+id/loginButton" />
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
