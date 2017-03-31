@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_1da0adaa295c250a1989ae410a22fe9acee2d4f8.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_e94ba4cdd2a7db7a6fe9495aa3951f20983225b3.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_980ebb2ac1143447de9965f35cd83ac3fe0d05e9.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.0_5dbbdd657eb28d8d3edd7aa52088930198db8125.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.0_779601bae3b7e35e4a1c8508ba2b3cd4bf01f016.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.0/support-annotations-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.0_e1eb9ba5c52ac3887a7ef3acea03507a67177383.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.0_f72df143490f27549d39ec919a7e95ca1878b813.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_d5f1d289b26d170bf80b484a9dc61fd4de04aba5.jar" />
+    </item>
+    <item
+        jar="/home/qubin/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0_f4fc312f26eebc0e85c68d732f7f3580524378aa.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.0_4383b04862b3393412671ad825cf58150564a4f5.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.0_fd2eb116762a644a6d457f64e17b778b72c81581.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.0_7e77ba2af4170f5560c9a25ad4131e6555b0a6bd.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.0_db5325b92140e6cd05aef60c64bc2b09a440e1d4.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.0_387cf63727f96ce3ddabd2341bbf924994c4074e.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.0/jars/libs/internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.0_60daeee0bf02783d16acd1b8f22a8abb775a3d23.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/design/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.0_e810c09f88a65103285569d708d625da3e1ad249.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.0_2c8409beaa2c2e58c3425804fdd32ce1a2495f16.jar" />
+    </item>
+    <item
+        jar="/home/qubin/Documents/letsallchef/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.0_9e7ae20054c89da9404ffb339e437ba55f8af48e.jar" />
+    </item>
+
+</items>
