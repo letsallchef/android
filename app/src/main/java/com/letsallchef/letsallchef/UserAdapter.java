@@ -33,12 +33,12 @@ public class UserAdapter extends ArrayAdapter<User> {
         }
 
         // Lookup view for data population
-        TextView tvLogin = (TextView) convertView.findViewById(R.id.tvLogin);
-        TextView tvUrl = (TextView) convertView.findViewById(R.id.tvUrl);
+//        TextView tvLogin = (TextView) convertView.findViewById(R.id.tvLogin);
+//        TextView tvUrl = (TextView) convertView.findViewById(R.id.tvUrl);
 
         // Populate the data into the template view using the data object
-        tvLogin.setText(user.login);
-        tvUrl.setText(user.url);
+//        tvLogin.setText(user.login);
+//        tvUrl.setText(user.url);
         return convertView;
     }
 }

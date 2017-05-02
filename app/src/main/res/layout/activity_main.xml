@@ -12,8 +12,26 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Start"
-        android:id="@+id/startbutton"
-        android:layout_centerVertical="true"
+        android:text="Groceries"
+        android:id="@+id/groceriesbutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="129dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipes"
+        android:id="@+id/recipesbutton"
+        android:layout_below="@+id/groceriesbutton"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Restaurants"
+        android:id="@+id/restaurantsbutton"
+        android:layout_below="@+id/recipesbutton"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>

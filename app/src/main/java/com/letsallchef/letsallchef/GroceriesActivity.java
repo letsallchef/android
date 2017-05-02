@@ -14,41 +14,42 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class GroceriesActivity extends AppCompatActivity {
 
-
-    private ListView listView;
+    private ListView groceryListView;
+    ArrayList<GroceryItem> grocery;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_groceries);
 
-        listView = (ListView) findViewById(R.id.listView);
+        groceryListView = (ListView) findViewById(R.id.groceriesListView);
 
         Gson gson = new GsonBuilder()
                 .setDateFormat("yyyy-MM-dd'T'HH:mm:ssZ")
                 .create();
 
         Retrofit.Builder builder = new Retrofit.Builder()
-                .baseUrl(GitHubClient.ENDPOINT)
+                .baseUrl(LacClient.ENDPOINT)
                 .addConverterFactory(GsonConverterFactory.create(gson));
 
         Retrofit retrofit = builder.build();
-        GitHubClient client = retrofit.create(GitHubClient.class);
-        Call<ArrayList<User>> call=client.userList();
+        final LacClient client = retrofit.create(LacClient.class);
 
-        call.enqueue(new Callback<ArrayList<User>>() {
+                Call<ArrayList<GroceryItem>> call=client.groceryList();
+                call.enqueue(new Callback<ArrayList<GroceryItem>>() {
 
-            @Override
-            public void onResponse(Call<ArrayList<User>> call, Response<ArrayList<User>> response) {
-                ArrayList<User> users = response.body();
-                UserAdapter adapter = new UserAdapter(getApplicationContext(),R.layout.row,users);
-                listView.setAdapter(adapter);
-            }
+                    @Override
+                    public void onResponse(Call<ArrayList<GroceryItem>> call, Response<ArrayList<GroceryItem>> response) {
+                        grocery = response.body();
+                        GroceryItemAdapter adapter = new GroceryItemAdapter(getApplicationContext(),R.layout.row,grocery);
+                        groceryListView.setAdapter(adapter);
+                    }
 
-            @Override
-            public void onFailure(Call<ArrayList<User>> call, Throwable t) {
+                    @Override
+                    public void onFailure(Call<ArrayList<GroceryItem>> call, Throwable t) {
 
-            }
-        });
+                    }
+                });
+
     }
 }
