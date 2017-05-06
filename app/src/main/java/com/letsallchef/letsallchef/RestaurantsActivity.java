@@ -18,7 +18,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RestaurantsActivity extends AppCompatActivity {
 
     private ListView restaurantsListView;
-    ArrayList<RestaurantItem> restaurant;
+    ArrayList<RestaurantListItem> restaurant;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,18 +38,18 @@ public class RestaurantsActivity extends AppCompatActivity {
         Retrofit retrofit = builder.build();
         final LacClient client = retrofit.create(LacClient.class);
 
-        Call<ArrayList<RestaurantItem>> call=client.restaurantList();
-        call.enqueue(new Callback<ArrayList<RestaurantItem>>() {
+        Call<ArrayList<RestaurantListItem>> call=client.restaurantList();
+        call.enqueue(new Callback<ArrayList<RestaurantListItem>>() {
 
             @Override
-            public void onResponse(Call<ArrayList<RestaurantItem>> call, Response<ArrayList<RestaurantItem>> response) {
+            public void onResponse(Call<ArrayList<RestaurantListItem>> call, Response<ArrayList<RestaurantListItem>> response) {
                 restaurant = response.body();
                 RestaurantItemAdapter adapter = new RestaurantItemAdapter(getApplicationContext(),R.layout.row, restaurant); //Needs Edit
                 restaurantsListView.setAdapter(adapter);
             }
 
             @Override
-            public void onFailure(Call<ArrayList<RestaurantItem>> call, Throwable t) {
+            public void onFailure(Call<ArrayList<RestaurantListItem>> call, Throwable t) {
 
             }
         });

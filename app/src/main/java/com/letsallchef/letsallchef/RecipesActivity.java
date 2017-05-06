@@ -6,6 +6,7 @@ import android.widget.ListView;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.letsallchef.letsallchef.models.RecipeItem;
 
 import java.util.ArrayList;
 
@@ -38,21 +39,21 @@ public class RecipesActivity extends AppCompatActivity {
         Retrofit retrofit = builder.build();
         final LacClient client = retrofit.create(LacClient.class);
 
-        Call<ArrayList<RecipeItem>> call=client.recipeList();
-        call.enqueue(new Callback<ArrayList<RecipeItem>>() {
-
-            @Override
-            public void onResponse(Call<ArrayList<RecipeItem>> call, Response<ArrayList<RecipeItem>> response) {
-                recipe = response.body();
-                RecipeItemAdapter adapter = new RecipeItemAdapter(getApplicationContext(),R.layout.row, recipe); //Needs Edit
-                recipeListView.setAdapter(adapter);
-            }
-
-            @Override
-            public void onFailure(Call<ArrayList<RecipeItem>> call, Throwable t) {
-
-            }
-        });
+//        Call<ArrayList<RecipeItem>> call=client.recipeList();
+//        call.enqueue(new Callback<ArrayList<RecipeItem>>() {
+//
+//            @Override
+//            public void onResponse(Call<ArrayList<RecipeItem>> call, Response<ArrayList<RecipeItem>> response) {
+//                recipe = response.body();
+//                RecipeItemAdapter adapter = new RecipeItemAdapter(getApplicationContext(),R.layout.row, recipe); //Needs Edit
+//                recipeListView.setAdapter(adapter);
+//            }
+//
+//            @Override
+//            public void onFailure(Call<ArrayList<RecipeItem>> call, Throwable t) {
+//
+//            }
+//        });
 
     }
 }

@@ -8,11 +8,11 @@ import java.util.ArrayList;
 /**
  * Created by qubin on 29/4/17.
  */
-public class RestaurantItemAdapter extends ArrayAdapter<RestaurantItem> {
+public class RestaurantItemAdapter extends ArrayAdapter<RestaurantListItem> {
 
     private Context context;
     int resource;
-    public RestaurantItemAdapter(Context context, int resource, ArrayList<RestaurantItem> restaurant) {
+    public RestaurantItemAdapter(Context context, int resource, ArrayList<RestaurantListItem> restaurant) {
         super(context, resource, restaurant);
         this.context=context;
         this.resource=resource;

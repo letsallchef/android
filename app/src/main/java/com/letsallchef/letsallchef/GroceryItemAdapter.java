@@ -13,10 +13,10 @@ import java.util.ArrayList;
 /**
  * Created by qubin on 22/4/17.
  */
-public class GroceryItemAdapter extends ArrayAdapter<GroceryItem> {
+public class GroceryItemAdapter extends ArrayAdapter<GroceryListItem> {
     private Context context;
     int resource;
-    public GroceryItemAdapter(Context context, int resource, ArrayList<GroceryItem> grocery) {
+    public GroceryItemAdapter(Context context, int resource, ArrayList<GroceryListItem> grocery) {
         super(context, resource, grocery);
         this.context=context;
         this.resource=resource;
@@ -26,7 +26,7 @@ public class GroceryItemAdapter extends ArrayAdapter<GroceryItem> {
     public View getView(int position, View convertView, ViewGroup parent) {
 
         // Get the data item for this position
-        GroceryItem groceryItem = getItem(position);
+        GroceryListItem groceryListItem = getItem(position);
 
         // Check if an existing view is being reused, otherwise inflate the view
         if (convertView == null) {
@@ -40,8 +40,8 @@ public class GroceryItemAdapter extends ArrayAdapter<GroceryItem> {
 
         // Populate the data into the template view using the data object
 //        ivCover.setI
-        tvGroceryTitle.setText(groceryItem.title);
-        tvGroceryDesc.setText(groceryItem._id);
+        tvGroceryTitle.setText(groceryListItem.title);
+        tvGroceryDesc.setText(groceryListItem._id);
         return convertView;
     }
 }
