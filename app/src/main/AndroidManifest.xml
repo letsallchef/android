@@ -27,10 +27,16 @@
         <activity
             android:name=".SignupActivity"
             android:theme="@style/AppTheme" />
+<<<<<<< HEAD
         <activity android:name=".GroceriesActivity" />
         <activity android:name=".RecipesActivity" />
         <activity android:name=".RestaurantsActivity" />
         <activity android:name=".Recipe_View"></activity>
+=======
+        <activity android:name=".groceries.GroceriesActivity" />
+        <activity android:name=".recipe.RecipesActivity" />
+        <activity android:name=".restaurants.RestaurantsActivity"></activity>
+>>>>>>> origin/master
     </application>
 
 </manifest>

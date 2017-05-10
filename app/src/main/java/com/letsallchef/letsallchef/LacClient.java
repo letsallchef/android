@@ -1,6 +1,8 @@
 package com.letsallchef.letsallchef;
 
-import com.letsallchef.letsallchef.models.RecipeItem;
+import com.letsallchef.letsallchef.models.grocery.GroceryItem;
+import com.letsallchef.letsallchef.models.recipelist.RecipeListItem;
+import com.letsallchef.letsallchef.models.restaurantlist.RestaurantListItem;
 
 import java.util.ArrayList;
 
@@ -13,12 +15,15 @@ import retrofit2.http.GET;
 public interface LacClient {
     String ENDPOINT = "https://api.myjson.com";
     @GET("/bins/heplj")
-    Call<ArrayList<GroceryListItem>> groceryList();
+    Call<ArrayList<GroceryItem>> groceryList();
 
-    @GET("/bins/g8hrx")
-    Call<RecipeItem> recipeList();
+//    @GET("/bins/g8hrx")
+//    Call<ArrayList<RecipeListItem>> recipeList();
 
-    @GET("")
+    @GET("/bins/1afaup")
+    Call<ArrayList<RecipeListItem>> recipeList();
+
+    @GET("/bins/1hicy9")
     Call<ArrayList<RestaurantListItem>> restaurantList();
 
 //    @GET("")

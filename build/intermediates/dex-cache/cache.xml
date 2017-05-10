@@ -75,7 +75,7 @@
         jar="/home/qubin/Documents/letsallchef/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="4de0a7713f99aabb36246285af1b4b42a29fab21">
+        sha1="dbd8b184d0aef1a657d58a965edc1f4fa06c5e3e">
         <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f7595a0938c1b2b2108720fe719cfb078996e0e7/classes.dex" />
     </item>
     <item
@@ -152,7 +152,7 @@
         jar="/home/qubin/Documents/letsallchef/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.2"
-        sha1="8f4bc7d7f0db64ff3283dd0567e3ddb814e1166d">
+        sha1="fd5f5d8c44af53a11d6029055bba20a184fc2ad2">
         <dex dex="/home/qubin/Documents/letsallchef/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_16bae6d9ca158bf75c38dae1f9425434a2c53c9c/classes.dex" />
     </item>
     <item
