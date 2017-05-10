@@ -2,6 +2,7 @@ package com.letsallchef.letsallchef;
 
 import com.letsallchef.letsallchef.models.grocery.GroceryItem;
 import com.letsallchef.letsallchef.models.recipelist.RecipeListItem;
+import com.letsallchef.letsallchef.models.restaurantlist.RestaurantListItem;
 
 import java.util.ArrayList;
 
