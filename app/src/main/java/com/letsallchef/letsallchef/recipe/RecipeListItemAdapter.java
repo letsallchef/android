@@ -1,4 +1,4 @@
-package com.letsallchef.letsallchef;
+package com.letsallchef.letsallchef.recipe;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,28 +8,27 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.letsallchef.letsallchef.models.Comment;
-import com.letsallchef.letsallchef.models.RecipeItem;
+import com.letsallchef.letsallchef.R;
+import com.letsallchef.letsallchef.models.recipelist.RecipeListItem;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by qubin on 29/4/17.
  */
-public class RecipeItemAdapter extends ArrayAdapter<Comment> {
+public class RecipeListItemAdapter extends ArrayAdapter<RecipeListItem> {
 
     private Context context;
     int resource;
-    public RecipeItemAdapter(Context context, int resource, List<Comment> comments) {
-        super(context, resource, comments);
+    public RecipeListItemAdapter(Context context, int resource, List<RecipeListItem> recipeListItems) {
+        super(context, resource, recipeListItems);
         this.context=context;
         this.resource=resource;
     }
     public View getView(int position, View convertView, ViewGroup parent) {
 
         // Get the data item for this position
-        Comment comment = getItem(position);
+        RecipeListItem recipeListItem = getItem(position);
 
         // Check if an existing view is being reused, otherwise inflate the view
         if (convertView == null) {
@@ -43,8 +42,8 @@ public class RecipeItemAdapter extends ArrayAdapter<Comment> {
 
         // Populate the data into the template view using the data object
 //        ivCover.setI
-        tvGroceryTitle.setText(comment.getUser().getUsername());
-        tvGroceryDesc.setText(comment.getBody());
+        tvGroceryTitle.setText(recipeListItem.getTitle());
+        tvGroceryDesc.setText(recipeListItem.getDescription());
         return convertView;
     }
 }

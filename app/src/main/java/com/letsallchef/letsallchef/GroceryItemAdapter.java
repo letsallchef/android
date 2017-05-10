@@ -8,15 +8,17 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.letsallchef.letsallchef.models.grocery.GroceryItem;
+
 import java.util.ArrayList;
 
 /**
  * Created by qubin on 22/4/17.
  */
-public class GroceryItemAdapter extends ArrayAdapter<GroceryListItem> {
+public class GroceryItemAdapter extends ArrayAdapter<GroceryItem> {
     private Context context;
     int resource;
-    public GroceryItemAdapter(Context context, int resource, ArrayList<GroceryListItem> grocery) {
+    public GroceryItemAdapter(Context context, int resource, ArrayList<GroceryItem> grocery) {
         super(context, resource, grocery);
         this.context=context;
         this.resource=resource;
@@ -26,7 +28,7 @@ public class GroceryItemAdapter extends ArrayAdapter<GroceryListItem> {
     public View getView(int position, View convertView, ViewGroup parent) {
 
         // Get the data item for this position
-        GroceryListItem groceryListItem = getItem(position);
+        GroceryItem groceryListItem = getItem(position);
 
         // Check if an existing view is being reused, otherwise inflate the view
         if (convertView == null) {
@@ -40,8 +42,8 @@ public class GroceryItemAdapter extends ArrayAdapter<GroceryListItem> {
 
         // Populate the data into the template view using the data object
 //        ivCover.setI
-        tvGroceryTitle.setText(groceryListItem.title);
-        tvGroceryDesc.setText(groceryListItem._id);
+        tvGroceryTitle.setText(groceryListItem.getTitle());
+        tvGroceryDesc.setText(groceryListItem.getDescription());
         return convertView;
     }
 }

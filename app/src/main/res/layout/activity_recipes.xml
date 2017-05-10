@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.letsallchef.letsallchef.RecipesActivity">
+    tools:context=".recipe.RecipesActivity">
 
     <ListView
         android:id="@+id/recipesListView"

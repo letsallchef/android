@@ -1,5 +1,5 @@
 
-package com.letsallchef.letsallchef.models;
+package com.letsallchef.letsallchef.models.recipe;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
@@ -11,72 +11,95 @@ public class RecipeItem {
     @SerializedName("_id")
     @Expose
     private String id;
+
     @SerializedName("cover")
     @Expose
     private String cover;
+
     @SerializedName("title")
     @Expose
     private String title;
+
     @SerializedName("description")
     @Expose
     private String description;
+
     @SerializedName("url")
     @Expose
     private String url;
+
     @SerializedName("course")
     @Expose
     private String course;
+
     @SerializedName("cuisine")
     @Expose
     private String cuisine;
+
     @SerializedName("category")
     @Expose
     private String category;
+
     @SerializedName("yield_number")
     @Expose
     private int yieldNumber;
+
     @SerializedName("yield_unit")
     @Expose
     private String yieldUnit;
+
     @SerializedName("prep_time")
     @Expose
     private int prepTime;
+
     @SerializedName("ease")
     @Expose
     private int ease;
+
     @SerializedName("sub_category")
     @Expose
     private String subCategory;
+
     @SerializedName("rating")
     @Expose
     private int rating;
+
     @SerializedName("__v")
     @Expose
     private int v;
+
     @SerializedName("comments")
     @Expose
     private List<Comment> comments = null;
+
     @SerializedName("variants_of_recipe")
     @Expose
     private List<Object> variantsOfRecipe = null;
+
     @SerializedName("combinations")
     @Expose
     private List<Object> combinations = null;
+
     @SerializedName("nutrition")
     @Expose
     private Nutrition nutrition;
+
     @SerializedName("instructions")
     @Expose
     private List<Instruction> instructions = null;
+
     @SerializedName("ingredients")
     @Expose
     private List<Ingredient> ingredients = null;
+
     @SerializedName("utensils")
     @Expose
     private List<Object> utensils = null;
+
     @SerializedName("tags")
     @Expose
     private List<String> tags = null;
+
     @SerializedName("images")
     @Expose
     private List<Object> images = null;
