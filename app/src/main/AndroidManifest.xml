@@ -29,7 +29,8 @@
             android:theme="@style/AppTheme" />
         <activity android:name=".GroceriesActivity" />
         <activity android:name=".RecipesActivity" />
-        <activity android:name=".RestaurantsActivity"></activity>
+        <activity android:name=".RestaurantsActivity" />
+        <activity android:name=".Recipe_View"></activity>
     </application>
 
 </manifest>
